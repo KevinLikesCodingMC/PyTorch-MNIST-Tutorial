@@ -53,7 +53,7 @@ log(f"model loaded")
 log(f"Initializing...")
 pygame.init()
 screen = pygame.display.set_mode((1500, 800))
-pygame.display.set_caption('Recognize Numbers')
+pygame.display.set_caption('Visual Demo')
 
 # pygame colors
 BLACK = (0, 0, 0)
