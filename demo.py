@@ -127,6 +127,7 @@ while True:
             if event.key == pygame.K_r:
                 canvas = np.zeros((600, 600))
                 image = np.zeros((28, 28))
+                output = recognize(image)
 
     # clear screen
     screen.fill(WHITE)
