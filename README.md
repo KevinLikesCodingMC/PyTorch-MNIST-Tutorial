@@ -9,7 +9,7 @@
 
 # Quick Start
 
-## 1. Clone the repositories
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/KevinLikesCodingMC/PyTorch-MNIST-Tutorial.git
@@ -27,6 +27,7 @@ PyTorch-MNIST-Tutorial/
 ├── test.py
 ├── train.py
 ├── utils.py
+├── demo.py
 ├── mnist_train.csv
 └── mnist_test.csv
 ```
@@ -34,7 +35,7 @@ PyTorch-MNIST-Tutorial/
 Then install these packages:
 
 ```bash
-pip install numpy, matplotlib
+pip install numpy matplotlib pygame
 ```
 
 ## 3. Install PyTorch 
@@ -46,3 +47,8 @@ Visit [PyTorch official website](https://pytorch.org/get-started/locally/).
 Run `train.py` to train and generate model `model.pth`.
 
 Run `test.py` to test the model `model.pth`.
+
+## 5. Visual Demo
+
+Run `demo.py` to watch the visual demo.
+
